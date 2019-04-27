@@ -1,0 +1,358 @@
+body {
+    /* letter-spacing: 1px; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* font-size: medium; */
+    /* background-image: url(../images/ep_naturalblack.png); */
+    background-size: cover;
+    background-color: #d6d6d6;
+  }
+
+
+/* General */
+.container { /*(I believe this is equivalent to ".mainbox" in my old code?)*/
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
+
+  p:last-child {   /* Not sure what this is */
+    margin-bottom: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+  }
+  
+  h2,
+  h3 {
+    font-size: 22px;
+  }
+
+
+  /* Header */
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #666666;
+    background: #666666;
+    border-bottom: 2px solid #cccccc;
+  }
+  
+  #logo {
+    float: left;
+    width: 350px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+
+  nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {   /* Not sure what this is */
+    border-left: 0 none;
+  }
+
+
+  /* footer */
+footer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    height: 20px;
+  }
+  
+  h3, h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eeeeee;
+  }
+
+
+/* main */ 
+#main-container { /*(I believe this is equivalent to ".mainbox" in my old code?)*/
+    padding-top: 130px;
+    min-height: calc(100vh - 70px); /*What the heck does this mean lol*/
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffffce;
+    border: 1px solid #dddddd;
+  }
+
+
+  /* portfolio page */
+.imageboxes {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 20px 0 25px;
+    padding: 15px;
+    /* overflow: auto; */
+  }
+  
+  /* .imageboxes:nth-child(even) {
+    margin-right: 40px;
+  }
+   */
+  .imageboxes img {
+    width: 100%;
+    height: 230px;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .imageboxes h3 {
+    position: absolute;
+    bottom: 100px;
+    width:300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+  .me {
+    width: 500px;
+    height: auto; 
+    float: left;   
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+  
+  .auth-image { /*This is equivalent to ".me"*/
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  
+/* contact page */
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+  
+
+
+
+
+
+/* This is my old code */
+
+/* body {
+    background-image: url(../images/ep_naturalblack.png);
+    background-size: cover;
+}
+
+#topname {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin-left: 227px;
+}
+
+.navbar {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: -60px;
+    padding-bottom: -20px;
+}
+
+.me {
+    max-width:60%;
+    max-height:60%; 
+    float: left;   
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#headers {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color:  #ffffff;
+    color: #4aaaa5;
+}
+
+#damn-line {
+    border-width: medium;
+}
+
+.buttons { 
+    width: 75px; 
+    height: 40px; 
+    font-size: 15px; 
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #4aaaa5
+}
+
+.mainbox {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    padding: 15px;
+    width: 70%;
+    height: 450px;
+    align-self: center;
+    margin-left: 15%;
+}
+
+.portfoliobox {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    padding: 15px;
+    width: 70%;
+    height: 600px;
+    align-self: center;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    display: left;
+    flex-direction: column;
+}
+
+.portfolio-images{    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width:100%;
+    height:100%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.text-images {
+    color: white;
+    background-color: #4aaaa5;
+    height: 50%;
+    width:100%;
+    margin: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+
+ }
+
+
+footer {
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    width: 100%;
+    height: 50px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.imageboxes {
+    width: 20%;
+    margin: 10px;
+    float: left;
+}
+
+.message {
+    width: 50%;
+    height: 50px;
+} */
