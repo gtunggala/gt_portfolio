@@ -57,7 +57,7 @@ hr.star-dark {
 }
 
 hr.star-dark:after {
-  color: #83788c;
+  color: #8b779b;
   background-color: white;
 }
 
@@ -340,7 +340,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #83788c;
+  color: #8b779b;
 }
 
 .btn {
@@ -369,8 +369,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #83788c;
-  border-color: #83788c;
+  background-color: #8b779b;
+  border-color: #8b779b;
 }
 
 .btn-secondary {

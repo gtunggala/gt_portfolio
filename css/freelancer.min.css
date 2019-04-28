@@ -12,8 +12,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: Montserrat;
+  font-weight: 900;
+  font-family: Playfair Display, serif;
 }
 hr.star-dark,
 hr.star-light {
@@ -90,8 +90,8 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
-  font-family: Montserrat;
+  font-weight: 900;
+  font-family: Playfair Display, serif;
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -104,14 +104,14 @@ section h2 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #d6a448;
+  color: #8b779b;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #d6a448;
+  color: #8b779b;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -134,13 +134,13 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #d6a448;
+    background: #8b779b;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus,
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #d6a448;
+    background: #8b779b;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -188,7 +188,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #83788c;
+  background-color: #8b779b;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -293,12 +293,12 @@ form .row:first-child .floating-label-form-group {
   background-color: #82583d;
 }
 a {
-  color: #d6a448;
+  color: #8b779b;
 }
 a:active,
 a:focus,
 a:hover {
-  color: #83788c;
+  color: #8b779b;
 }
 .btn {
   border-width: 2px;
@@ -313,7 +313,7 @@ a:hover {
   color: #d6a448 !important;
 }
 .text-secondary {
-  color: #25222e !important;
+  color: #8b779b !important;
 }
 .btn-primary {
   background-color: #d6a448;
@@ -322,8 +322,8 @@ a:hover {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #83788c;
-  border-color: #83788c;
+  background-color: #8b779b;
+  border-color: #8b779b;
 }
 .btn-secondary {
   background-color: #25222e;
