@@ -1,1 +1,1 @@
-Link to deployed page: https://whispering-ravine-94211.herokuapp.com/
+Link to deployed page: https://gabrieltunggala.herokuapp.com/
